@@ -1,27 +1,26 @@
-Source: netrunner-default-settings
+Source: maui-default-settings
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.2
 
-Package: netrunner-default-settings
+Package: maui-default-settings
 Architecture: all
-Recommends: netrunner-artwork-aurorae-themes,
-            netrunner-plasma5-panels,
-            netrunner-plasma5-shells,
-            netrunner-settings-applications,
-            netrunner-settings-autostart,
-            netrunner-settings-desktop,
-            netrunner-settings-firefox,
-            netrunner-settings-grub,
-            netrunner-settings-kcmabout,
-            netrunner-settings-kdeapps,
-            netrunner-settings-plasma,
-            netrunner-settings-profiled,
-            netrunner-settings-sddm,
-            netrunner-settings-theming,
-            netrunner-settings-thunderbird,
-            netrunner-settings-xsession
-Description: Metapackage for Netrunner Default Settings
-  This metapackage provides the default settings for Netrunner.
+Recommends: default-plasma5-panels,
+            default-plasma5-shells,
+            default-settings-applications,
+            default-settings-autostart,
+            maui-settings-desktop,
+            default-settings-firefox,
+            maui-settings-grub,
+            maui-settings-kcmabout,
+            default-settings-kdeapps,
+            default-settings-plasma,
+            default-settings-profiled,
+            maui-settings-sddm,
+            maui-settings-theming,
+            default-settings-thunderbird,
+            default-settings-xsession
+Description: Metapackage for Maui Default Settings
+  This metapackage provides the default settings for Maui.
